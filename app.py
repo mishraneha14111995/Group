@@ -197,5 +197,5 @@ df = pd.DataFrame({
 
 # Save as CSV
 csv_path = '/mnt/data/synthetic_skincare_influencer_survey.csv'
-df.to_csv(csv_path, index=False)
+df.to_csv('synthetic_skincare_influencer_survey.csv', index=False)
 csv_path
